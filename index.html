@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+
     <header class="site-header">
       <div class="container nav-wrap">
         <a href="#top" class="brand" aria-label="Teddy Candy home">
@@ -40,31 +43,45 @@
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow">Washington, DC • Home-Based Favorite</p>
-            <h1>Where sweet cravings meet savory joy.</h1>
+            <h1>Sweet sips, savory bites, and big flavor energy.</h1>
             <p class="lead">
-              Teddy Candy brings bold flavors, fresh ingredients, and homemade comfort food to your table.
-              From specialty drinks and candy fruit to hot dogs, pizza, wings, steak & cheese, and dessert favorites,
-              every bite is made to bring people together.
+              Teddy Candy brings together bright flavors, hand-picked favorites, and comfort food cravings in one unforgettable menu.
+              Specialty drinks, candy fruit, hot dogs, pizza, wings, steak & cheese, mini cakes, and dessert tacos — all made to turn heads and satisfy every mood.
             </p>
 
             <div class="hero-actions">
               <a href="#contact" class="btn btn-primary">Text Us to Order Now</a>
-              <a href="#menu" class="btn btn-secondary">View Menu</a>
+              <a href="#menu" class="btn btn-secondary">Explore the Menu</a>
             </div>
 
             <ul class="hero-tags" aria-label="Business highlights">
               <li>Fresh & Homemade</li>
-              <li>Flavorful Favorites</li>
-              <li>Made to Order</li>
+              <li>Big Flavor</li>
+              <li>Custom Orders</li>
             </ul>
+
+            <div class="mini-stats" aria-label="Quick business stats">
+              <div>
+                <strong>DC</strong>
+                <span>Local favorite</span>
+              </div>
+              <div>
+                <strong>Fresh</strong>
+                <span>Made daily</span>
+              </div>
+              <div>
+                <strong>Fun</strong>
+                <span>Crave-worthy</span>
+              </div>
+            </div>
           </div>
 
           <div class="hero-card" aria-label="Featured menu card">
             <div class="card-badge">Chef’s Pick</div>
-            <h2>Signature Flavor Combo</h2>
+            <h2>Flavor Combo of the Day</h2>
             <div class="feature-item">
-              <span>Specialty Drink</span>
-              <strong>Fruit & Soda Mix</strong>
+              <span>Drink</span>
+              <strong>Specialty Fruit Crush</strong>
             </div>
             <div class="feature-item">
               <span>Candy Fruit</span>
@@ -78,6 +95,11 @@
               <span>Dessert</span>
               <strong>Mini Cakes & Dessert Tacos</strong>
             </div>
+            <div class="chip-row">
+              <span>Sweet</span>
+              <span>Savory</span>
+              <span>Fun</span>
+            </div>
           </div>
         </div>
       </section>
@@ -86,16 +108,16 @@
         <div class="container two-col">
           <div>
             <p class="section-tag">About Teddy Candy</p>
-            <h2>Big flavor. Big personality. Home-made comfort.</h2>
+            <h2>Bringing joy to the table, one crave-worthy bite at a time.</h2>
           </div>
           <div>
             <p>
-              Teddy Candy is a Washington, DC home-based food business built around joy, flavor, and community.
-              We combine sweet, savory, and crowd-pleasing favorites into a menu that feels fun, familiar, and unforgettable.
+              Teddy Candy is a Washington, DC home-based food business built around flavor, personality, and pure fun.
+              We combine sweet treats, juicy fruit, savory comfort food, and eye-catching desserts into a menu that feels fresh, exciting, and made for sharing.
             </p>
             <p>
-              Whether you're craving a refreshing specialty drink, a fruit snack, a hot meal, or a dessert that steals the show,
-              we make every order with heart and a little extra flavor.
+              Whether you’re craving a refreshing specialty drink, a juicy candy fruit snack, a hot meal from the grill, or a dessert that steals the whole spotlight,
+              Teddy Candy is here to keep your taste buds happy and your cravings satisfied.
             </p>
           </div>
         </div>
@@ -105,21 +127,27 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-tag">Our Menu</p>
-            <h2>Sweet sips, savory bites, and desserts worth craving.</h2>
+            <h2>Fresh favorites for every craving.</h2>
           </div>
 
           <div class="menu-grid">
             <article class="menu-card accent-peach">
-              <h3>Specialty Drinks</h3>
+              <div class="menu-header">
+                <h3>Specialty Drinks</h3>
+                <span>Popular</span>
+              </div>
               <ul>
-                <li>Fruit-infused refreshments</li>
-                <li>Sweet & icy favorites</li>
-                <li>Custom flavor combinations</li>
+                <li>Fruit-infused refreshers</li>
+                <li>Sweet soda blends</li>
+                <li>Custom flavor combos</li>
               </ul>
             </article>
 
             <article class="menu-card accent-gold">
-              <h3>Candy Fruit</h3>
+              <div class="menu-header">
+                <h3>Candy Fruit</h3>
+                <span>Bright & juicy</span>
+              </div>
               <ul>
                 <li>Grapes</li>
                 <li>Apples</li>
@@ -129,7 +157,10 @@
             </article>
 
             <article class="menu-card accent-rose">
-              <h3>Hot Food</h3>
+              <div class="menu-header">
+                <h3>Hot Food</h3>
+                <span>Hearty</span>
+              </div>
               <ul>
                 <li>Hot dogs</li>
                 <li>Pizza</li>
@@ -139,11 +170,14 @@
             </article>
 
             <article class="menu-card accent-lime">
-              <h3>Desserts</h3>
+              <div class="menu-header">
+                <h3>Desserts</h3>
+                <span>Sweet finish</span>
+              </div>
               <ul>
                 <li>Mini cakes</li>
                 <li>Dessert tacos</li>
-                <li>Sweet treats for any occasion</li>
+                <li>Fun treats for all ages</li>
               </ul>
             </article>
           </div>
@@ -160,18 +194,18 @@
           <div class="feature-grid">
             <div class="feature-box">
               <span>01</span>
-              <h3>Fresh & Homemade</h3>
-              <p>Made with care and packed with flavor in every order.</p>
+              <h3>Fresh Daily</h3>
+              <p>Everything is made with bold flavor and a whole lot of care.</p>
             </div>
             <div class="feature-box">
               <span>02</span>
-              <h3>Perfect for Any Moment</h3>
-              <p>From a quick snack to a party treat, we’ve got the flavor combo you need.</p>
+              <h3>Made for Cravings</h3>
+              <p>From sweet to savory, we cover the mood and the moment.</p>
             </div>
             <div class="feature-box">
               <span>03</span>
-              <h3>Local & Personal</h3>
-              <p>As a Washington, DC home-based business, we bring local heart and big taste.</p>
+              <h3>Local Love</h3>
+              <p>Washington, DC energy with a home-based brand that feels personal.</p>
             </div>
           </div>
         </div>
@@ -180,8 +214,8 @@
       <section id="gallery" class="section gallery-section">
         <div class="container">
           <div class="section-heading">
-            <p class="section-tag">Favorites</p>
-            <h2>Made to grab attention and satisfy cravings.</h2>
+            <p class="section-tag">Fan Favorites</p>
+            <h2>Crave-worthy visuals that make people stop scrolling.</h2>
           </div>
 
           <div class="gallery-grid">
@@ -199,7 +233,7 @@
             <p class="section-tag">Let’s Get You Fed</p>
             <h2>Text us to order now.</h2>
             <p>
-              Ready for a sweet drink, a savory bite, or a full-order treat? Send us a message and we’ll help you put together your perfect Teddy Candy order.
+              Craving something sweet, savory, or both? Let’s build your perfect Teddy Candy order and make your next snack moment unforgettable.
             </p>
           </div>
 
