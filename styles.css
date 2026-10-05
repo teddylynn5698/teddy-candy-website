@@ -1,71 +1,25 @@
-.payment-methods {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
+.item-1 {
+  background-image: linear-gradient(180deg, rgba(255, 125, 89, 0.18), rgba(0,0,0,0.28)), url('https://raw.githubusercontent.com/teddylynn5698/teddy-candy-website/main/IMG_9487.jpeg');
 }
 
-.payment-label {
-  margin: 0 0 0.8rem;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  font-weight: 800;
+.item-2 {
+  background-image: linear-gradient(180deg, rgba(247, 200, 115, 0.18), rgba(0,0,0,0.28)), url('https://raw.githubusercontent.com/teddylynn5698/teddy-candy-website/main/IMG_9488.jpeg');
 }
 
-.payment-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 3rem;
-  border-radius: 999px;
-  font-weight: 800;
-  margin-bottom: 0.6rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.item-3 {
+  background-image: linear-gradient(180deg, rgba(95, 61, 109, 0.18), rgba(0,0,0,0.28)), url('https://raw.githubusercontent.com/teddylynn5698/teddy-candy-website/main/IMG_9495.jpeg');
 }
 
-.payment-btn:hover,
-.payment-btn:focus-visible {
-  transform: translateY(-2px);
+.item-4 {
+  background-image: linear-gradient(180deg, rgba(157, 217, 196, 0.2), rgba(0,0,0,0.28)), url('https://raw.githubusercontent.com/teddylynn5698/teddy-candy-website/main/IMG_9498.jpeg');
 }
 
-.varo-btn {
-  background: linear-gradient(135deg, #0d8eee, #0a6ecb);
-  color: #fff;
-  box-shadow: 0 18px 24px rgba(13, 142, 238, 0.2);
+.hero-card {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.82), rgba(255,249,245,0.75)), url('https://raw.githubusercontent.com/teddylynn5698/teddy-candy-website/main/IMG_9499.jpeg');
+  background-size: cover;
+  background-position: center;
 }
 
-.apple-btn {
-  background: linear-gradient(135deg, #111111, #444444);
-  color: #fff;
-  box-shadow: 0 18px 24px rgba(17, 17, 17, 0.18);
-}
-
-.pricing-banner {
-  margin-top: 1.5rem;
-  padding: 1rem 1.2rem;
-  background: rgba(255,255,255,0.76);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  color: var(--text);
-  font-weight: 600;
-  line-height: 1.8;
-  box-shadow: 0 18px 28px rgba(34, 23, 24, 0.04);
-}
-
-.pricing-banner strong {
-  color: var(--plum);
-}
-
-@media (max-width: 900px) {
-  .payment-btn {
-    width: 100%;
-  }
-}
-
-@media (max-width: 640px) {
-  .pricing-banner {
-    font-size: 0.92rem;
-  }
+.hero-card::before {
+  background: linear-gradient(135deg, rgba(255, 122, 89, 0.16), rgba(164, 138, 209, 0.14));
 }
