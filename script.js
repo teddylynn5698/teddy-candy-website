@@ -1,21 +1,17 @@
-const navToggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.site-nav');
-const year = document.querySelector('#year');
-
-if (year) {
-  year.textContent = new Date().getFullYear();
+.brand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-if (navToggle && nav) {
-  navToggle.addEventListener('click', () => {
-    const isOpen = nav.classList.toggle('is-open');
-    navToggle.setAttribute('aria-expanded', String(isOpen));
-  });
+.brand img {
+  display: block;
+  height: 42px;
+  width: auto;
+}
 
-  nav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('is-open');
-      navToggle.setAttribute('aria-expanded', 'false');
-    });
-  });
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(180deg, #f7f2f1 0%, #fffaf8 100%);
+  color: #1e1719;
 }
